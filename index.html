@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/index.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    <title>Hoops Parallax</title>
+</head>
+<body>
+    <!-- Build navbar with logo, login, sign up and search bar -->
+    <header>
+        <nav>
+            <img src="/assets/2.png" alt="GPVdev" class="logo">
+            <ul>
+                <li>
+                    <a href="">
+                        Login
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        Sign Up
+                    </a>
+                </li>
+                <li class="search">
+                    <a href="">
+                        <i class="fas fa-search"></i>
+                    </a>
+                </li>
+                <li class="hamburger">
+                    <a href="#">
+                        <div class="bar"></div>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="vignette"></div>
+        <img src="/assets/Court Background.jpg" alt="court" data-speedx="0.13" data-speedy="0.18" data-speedz="0" data-rotation="0" class="parallax bg-img">
+        <img src="/assets/player1.png" alt="court" data-speedx="0.13" data-speedy="0.13" data-speedz="0.3" data-rotation="0.05" class="parallax player1">
+        <img src="/assets/player2.png" alt="court" data-speedx="0.13" data-speedy="0.13" data-speedz="0.4" data-rotation="0.03" class="parallax player2">
+
+        <div data-speedx="0.20" data-speedy="0.20" data-speedz="0.10" data-rotation="0.02" data-distance="200" class="text parallax">
+            <!-- <h2>HOOP</h2> -->
+            <h1>DREAMERS</h1>
+        </div>
+
+        <img src="/assets/player3.png" alt="court"  data-speedx="0.14" data-speedy="0.12" data-speedz="0.5" data-rotation="0.3" class="parallax player3">
+        <img src="/assets/player4.png" alt="court"  data-speedx="0.11" data-speedy="0.11" data-speedz="0.4" data-rotation="0.1" class="parallax player4">
+        <img src="/assets/player6.png" alt="court"  data-speedx="0.11" data-speedy="0.11" data-speedz="0.2" data-rotation="0.1" class="parallax player6">
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="text/javascript" src="app.js"></script>
+</body>
+</html>
